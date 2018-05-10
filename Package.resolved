@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftyGPIO",
+        "repositoryURL": "https://github.com/uraimo/SwiftyGPIO.git",
+        "state": {
+          "branch": null,
+          "revision": "7a6bd38d48ad89df11ccfe5e08310413323e56e4",
+          "version": "0.9.13"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
