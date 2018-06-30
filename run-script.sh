@@ -1,3 +1,3 @@
 #!/bin/bash
 
-swiftc ./Build/Products/Debug/SwiftyRobot
+swiftc Build/Products/Debug/SwiftyRobot
