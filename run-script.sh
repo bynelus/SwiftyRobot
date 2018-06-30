@@ -1,3 +1,5 @@
 #!/bin/bash
 
-swiftc Build/Products/Debug/SwiftyRobot
+cd ~/Development/SwiftyRobot
+swift build
+swift run

@@ -1,4 +1,0 @@
-framework module SwiftyGPIO {
-    header "SwiftyGPIO-Swift.h"
-    requires objc
-}
