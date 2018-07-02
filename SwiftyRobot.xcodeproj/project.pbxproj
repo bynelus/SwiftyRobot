@@ -34,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4DC07CD20E9FE8900407B37 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4DC07CE20EA00FF00407B37 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D4DC07CF20EA00FF00407B37 /* run-script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-script.sh"; sourceTree = "<group>"; };
+		D4DC07D020EA010000407B37 /* connect-pi.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "connect-pi.sh"; sourceTree = "<group>"; };
 		OBJ_13 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/nielskoole/Development/Personal/SwiftyRobot/.build/checkouts/SwiftyGPIO.git-6330852604069455572/Package.swift"; sourceTree = "<group>"; };
 		OBJ_14 /* 1Wire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1Wire.swift; sourceTree = "<group>"; };
 		OBJ_15 /* ADC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADC.swift; sourceTree = "<group>"; };
@@ -113,16 +117,19 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				D4DC07D020EA010000407B37 /* connect-pi.sh */,
+				D4DC07CF20EA00FF00407B37 /* run-script.sh */,
+				D4DC07CE20EA00FF00407B37 /* LICENSE */,
+				D4DC07CD20E9FE8900407B37 /* README.md */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_11 /* Dependencies */,
 				OBJ_24 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -221,7 +228,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
